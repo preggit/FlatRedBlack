@@ -2980,8 +2980,11 @@ a[href='#icon-zoom-out']::before {
 	background-position: 0 -12818px;
 } 
 
-/* 
-==========
-FlatBlue reddit CSS Theme v1.2 - (http://www.reddit.com/r/FlatBlue/)
-==========
-*/
+
+/* fixed for default header*/
+#header-bottom-left {
+height: 104px;
+}
+#header-img.default-header{
+margin-top:60px;
+}
